@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library System</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <style>
+    .sidebar-link:hover {
+        background-color: #f8f9fa;
+        color: #007bff;
+    }
+    </style>
+
 </head>
 
 <body>
@@ -51,7 +58,7 @@
         </div>
     </footer>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}" defer></script>
 </body>
 
 </html>
